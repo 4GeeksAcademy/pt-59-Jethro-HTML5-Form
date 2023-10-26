@@ -1,0 +1,152 @@
+label{
+    font-family :"Times New Roman";
+    font:bold;
+    font-style: italic;
+}
+h1{
+    font-family: Georgia;
+    font-style: oblique;
+    font: bolder;
+    font-stretch: expanded;
+}
+h5{
+    font-size: small;
+    font-weight: bold;
+    font-family: lucida Sans Regular;
+}
+
+body{
+  background-color: rgb(238, 114, 135);
+}
+#text{
+    width: 95%;
+    margin-left: 2px;
+    margin-right: 1px;
+}
+.container{
+    width: 90%;
+     height: 90%;
+     border-color: lightgrey;
+     border-radius: 2px;
+     border-style: solid;
+    /* align : center; */
+     margin-right: 10%;
+     margin-left: 10%;
+     margin-right: 5%; 
+     background-color: white;
+}
+
+.rectangle-header{
+    background-color: lightgrey;
+    border-style:inherit;
+    width:100%;
+    height: 10%;
+}
+.rectangle-body1{
+   
+    width:100%;
+    height: 20%;
+}
+.rectangle-body1-field1{
+    background-color: pink;
+    
+    width:100%;
+    height: 10%;
+}
+.rectangle-body1-field2{
+    display: flex;
+    width: 100%;
+    height:20%;
+}
+.rectangle-body-Card{
+    width :40%;
+    height:20%;
+    
+}
+.rectangle-body-CVC{
+    width :25%;
+    height:20%;
+    
+}
+.rectangle-body-amount{
+    width:35%;
+    height: 20%;
+    
+}
+.rectangle-body2{
+    width:100%;
+    height:50%;
+    display: flex;
+
+}
+.rectangle-body2-left{
+    width:50%;
+    height:50%;
+   
+}
+.rectangle-body2-left-firstname{
+    width:100%;
+    height: 10%;
+    }
+
+.rectangle-body2-left-city{
+    width : 100%;
+    height : 10%;
+    
+}
+
+.rectangle-body2-left-card_accepted{
+    width : 50%;
+    height : 15%;
+}
+.rectangle-body2-left-cardlogo{
+    background-color: lightgrey;
+    width: 100%;
+    height : 10%;
+}
+
+.rectangle-body2-right-lastname{
+    width:100%;
+    height:10%;
+    }
+
+.rectangle-body2-right{
+    width:50%;
+    height:50%;
+}
+.rectangle-body2-right-statePostal{
+    width :100%;
+    height:10%;
+    display:flex;
+}
+.rectangle-body2-right-state{
+    width : 50%;
+    height : 10%;
+}
+.rectangle-body2-right-codePostal{
+    width : 50%;
+    height : 10%;
+    
+}
+.rectangle-body2-right-message{
+    width :100%;
+    height : 20%;
+}
+.rectangle-foot{
+    width:100%;
+    height:20%;
+    display: flex;
+    background-color: gainsboro;
+}
+.rectangle-foot-button1{
+    width : 10%;
+       display: flex;
+    align-items: end;
+    margin-left: 80%;
+}
+.rectangle-foot-button2{
+    width : 10%;
+       display: flex;
+    align-items: end;
+    margin-left: 2%;
+}
